@@ -1,0 +1,100 @@
+:root {
+    --main-bg-color: green;
+  }
+  .title {
+    color: blue;
+    font-size: 33px;
+    margin: 50px 50px 50px 50px;
+    padding: 25px 25px 25px 25px;
+    font-family: Sans-serif;
+    background-color: var(--main-bg-color, red);
+    text-align: center;
+  }
+  img {
+  /*   display: block; */
+    border-radius: 50%;
+  /*   margin: 15px auto; */
+    padding: 5px 5px 5px 15px;
+  }
+  .paragraph {
+    color: blue;
+    font-size: 25px;
+    margin: 25px 25px 25px 25px;
+    padding: 5px 15px 15px 1px;
+    font-family: Monospace;
+    background-color: var(--main-bg-color);
+  }
+  .table-title {
+    color: green;
+    font-size: 30px;
+    margin: 25px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
+    font-family: Monospace;
+    background-color: var(--main-bg-color);
+  }
+  td {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 25px 25px 25px;
+    padding: 15px 15px 15px 15px;
+    font-family: cursive;
+  }
+  .websites {
+    color: green;
+    font-size: 50px;
+    margin: 25px 25px 25px 25px;
+    padding: 25px 5px 25px 25px;
+    font-family: Monospace;
+    background-color: var(--main-bg-color);
+  }
+  ol {
+    color: orange;
+    font-size: 25px;
+    margin: 25px 25px 25px 25px;
+    padding: 15px 15px 15px 15px;
+    font-family: monospace;
+  }
+  .motivation {
+    color: red;
+    font-size: 30px;
+    margin: 25px 25px 25px 25px;
+     padding: 15px 15px 15px 15px;
+    font-family: cursive;
+    background-color: var(--main-bg-color);
+  }
+  .contact {
+    color: green;
+    font-size: 27px;
+    margin: 25px 25px 25px 25px;
+    padding: 25px 25px 25px 5px;
+    font-family: serif;
+    background-color: var(--main-bg-color);
+  }
+  body {
+    background-color: white;
+  }
+  #grad {
+    background-color: linear-gradient(to right, white, darkblue yellow);
+  }
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  a {
+    font-size: 25px;
+    font-family: monospace;
+  }
+  .linkdin {
+    color: green;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 26px 26px 26px 26px;
+    padding: 15px 15px 15px 15px;
+    font-family: cursive;
+  }
+  .page-container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
